@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="project-container">
+        <div class="card">
+            <div class="sub-title">
+                <h2 class="gfg">GeeksForGeeks</h2>
+            </div>
+            <div class="header">
+                <h1 class="project-title">Price Range Slider</h1>
+            </div>
+            <div class="minimum-container">
+                <label for="minimum">Minimum Price:</label>
+                <input type="number" name="minimum" id="minimum">
+            </div>
+            <div class="maximum-container">
+                <label for="maximum">Maximum Price:</label>
+                <input type="number" name="maximum" id="maximum">
+            </div>
+            <div class="range-slider">
+                
+                <input type="range" class="min-range" min="0" max="10000" value="2500" step="1">
+                <input type="range" class="max-range" min="0" max="10000" value="8500" step="1">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
